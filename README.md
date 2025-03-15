@@ -88,7 +88,8 @@ module mux4_to_1_gate (
     or (Y, A_and, B_and, C_and, D_and);
 endmodule
 OUTPUT:
-![Screenshot 2025-03-13 092231](https://github.com/user-attachments/assets/b4413fbc-abc3-4e61-a535-6fd1432952f6)
+![Screenshot 2025-03-4 071231](https://github.com/user-attachments/assets/1526d0a6-303d-48ef-80b8-f64fe5045262)
+
 
 
 **4:1 MUX Data Flow Implementation**
@@ -108,7 +109,8 @@ module mux4_to_1_dataflow (
                (S1 & S0 & D);
 endmodule
 OUTPUT:
-![Screenshot 2025-03-13 092232](https://github.com/user-attachments/assets/5183dc84-7184-4f0a-8e5c-8ab5c56c5f9e)
+![Screenshot 2025-03-14 074532](https://github.com/user-attachments/assets/808e16f5-42d4-4ca2-ac99-e80d8697b253)
+
 
 
 **4:1 MUX Behavioral Implementation**
@@ -132,8 +134,8 @@ module mux4_to_1_behavioral (
         endcase
     end
 endmodule
-OUTPUT:
-![Screenshot 2025-03-13 092233](https://github.com/user-attachments/assets/2ac22b4e-e84f-41c1-ac1b-d384b1e07307)
+OUTPUT:![Screenshot 2025-03-15 064203](https://github.com/user-attachments/assets/1d28cb42-d9f1-4831-bdbb-36573ac62d11)
+
 
 
 **4:1 MUX Structural Implementation**
@@ -164,7 +166,7 @@ module mux4_to_1_structural (
     mux2_to_1 mux_final (.A(mux_low), .B(mux_high), .S(S1), .Y(Y));
 endmodule
 OUTPUT:
-![Screenshot 2025-03-13 092234](https://github.com/user-attachments/assets/aa47722b-62b7-4683-b0ed-3a3e062cf196)
+![Screenshot 2025-03-15 0700215](https://github.com/user-attachments/assets/f60583d4-0c6b-499d-a885-78c7d03ce9a5)
 
 
 **Testbench Implementation**
