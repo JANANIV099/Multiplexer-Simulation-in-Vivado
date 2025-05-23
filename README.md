@@ -87,6 +87,7 @@ module mux4_to_1_gate (
 
     or (Y, A_and, B_and, C_and, D_and);
 endmodule
+```
 OUTPUT:
 ![Screenshot 2025-03-4 071231](https://github.com/user-attachments/assets/1526d0a6-303d-48ef-80b8-f64fe5045262)
 
